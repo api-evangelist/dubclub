@@ -1,7 +1,14 @@
 aid: dubclub
 name: DubClub
-description: DubClub is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: DubClub is an all-in-one platform to create and join sports betting communities.
+  It is a marketplace connecting sports betting content creators known as cappers or handicappers
+  with subscribers who want timely, reliable betting picks and analysis. Creators monetize their
+  expertise by selling picks and predictions through paid subscriptions, while subscribers receive
+  content directly via notifications and messaging rather than scattered across social media and
+  Discord. DubClub has facilitated tens of millions in payments for creators and delivered hundreds
+  of millions of messages containing informational sports betting content. This profile was surfaced
+  as a portfolio company of Uncork Capital; DubClub publishes a consumer web product and does not
+  expose a public developer API program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/dubclub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +16,53 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://dubclub.win/_app/immutable/assets/dub_logo_gradient.Ct7_dTtF.svg
 tags:
 - Company
+- Sports Betting
+- Creator Economy
+- Monetization
+- Subscriptions
+- Messaging
+- Sports
+- Community
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dubclub-domain-security.yml
+- type: Website
+  url: https://dubclub.win
+- type: SignUp
+  url: https://dubclub.win/partners/signup/
+- type: Login
+  url: https://dubclub.win/auth/login/
+- type: Support
+  url: https://dubclub.zendesk.com/hc/
+- type: TermsOfService
+  url: https://dubclub.win/terms-of-service/
+- type: PrivacyPolicy
+  url: https://dubclub.win/privacy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
